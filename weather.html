@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="weather.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+     -->
+     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="outer">
+        <div class="container1">
+            <div class="left">
+                <div class="day">
+                    <p>-</p>
+                </div>
+                <span style="display: inline-block">
+
+                </span>
+                <div class="icon" style="display: inline-block">
+                    <img src="icons/unknown.png" alt="">
+                </div>
+                <div class="maintemp">
+                    <div class="temperature">
+                        <p>- &#176<span></span>/</p>
+                    </div>
+                    <div class="temperature1">
+                        <p>- &#176 <span></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <p>-</p>
+                <h4>-</h4>    
+            </div>
+            <div class="ham">
+                    <div id="menu-bar">
+                            <div id="menu" onclick="onClickMenu()">
+                                <div id="bar1" class="bar"></div>
+                                <div id="bar2" class="bar"></div>
+                                <div id="bar3" class="bar"></div>
+                            </div>
+                            <ul class="nav" id="nav">
+                                <li><a href="#" onclick="cityClick(51.5074,0.1278,4)">London</a></li>
+                                <li><a href="#" onclick="cityClick(41.8781,87.6298,10.50)">Chicago</a></li>
+                                <li><a href="#" onclick="cityClick(40.7128,74.0060,9.50)">New York</a></li>
+                                <li><a href="#" onclick="cityClick(24.4539,54.3773,1.50)">Abu Dhabi</a></li>
+                                <li><a href="#" onclick="cityClick(52.3667,4.8945,3.5)">Amsterdam</a></li>
+                            </ul>
+                        </div>
+            </div>
+            <div class="wk1"><div class="day1">
+                <p>-</p>
+            </div>
+            <div class="icon1">
+                <img src="icon/unknown.png" alt="" class="ic1">
+            </div>
+            <div class="maintemp1">
+                <div class="temperature10">
+                    <p>- &#176<span></span>/</p>
+                </div>
+                <div class="temperature11">
+                    <p>- &#176 <span></span></p>
+                </div>
+            </div></div>
+            <div class="wk2"><div class="day2">
+                <p>-</p>
+            </div>
+            <div class="icon2">
+                <img src="icons/unknown.png" alt="" class="ic2">
+            </div>
+            <div class="maintemp2">
+                <div class="temperature2">
+                    <p>- &#176<span></span>/</p>
+                </div>
+                <div class="temperature12">
+                    <p>- &#176 <span></span></p>
+                </div>
+            </div></div>
+            <div class="wk3"><div class="day3">
+                <p>-</p>
+            </div>
+            <div class="icon3">
+                <img src="icons/unknown.png" alt="" class="ic3">
+            </div>
+            <div class="maintemp3">
+                <div class="temperature3">
+                    <p>- &#176<span></span>/</p>
+                </div>
+                <div class="temperature13">
+                    <p>- &#176 <span></span></p>
+                </div>
+            </div></div>
+            <div class="wk4"><div class="day4">
+                <p>-</p>
+            </div>
+            <div class="icon4">
+                <img src="icons/unknown.png" alt="" class="ic4">
+            </div>
+            <div class="maintemp4">
+                <div class="temperature4">
+                    <p>- &#176<span></span>/</p>
+                </div>
+                <div class="temperature14">
+                    <p>- &#176 <span></span></p>
+                </div>
+            </div></div>
+            <div class="wk5"><div class="day5">
+                <p>-</p>
+            </div>
+            <div class="icon5">
+                <img src="icons/unknown.png" alt="" class="ic5">
+            </div>
+            <div class="maintemp5">
+                <div class="temperature5">
+                    <p>- &#176<span></span>/</p>
+                </div>
+                <div class="temperature15">
+                    <p>- &#176 <span></span></p>
+                </div>
+            </div></div>
+            <div class="wk6"><div class="day6">
+                <p>-</p>
+            </div>
+            <div class="icon6">
+                <img src="icons/unknown.png" alt="" class="ic6">
+            </div>
+            <div class="maintemp6">
+                <div class="temperature6">
+                    <p>- &#176<span></span>/</p>
+                </div>
+                <div class="temperature16">
+                    <p>- &#176 <span></span></p>
+                </div>
+            </div></div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
